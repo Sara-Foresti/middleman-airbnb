@@ -1,9 +1,9 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <!-- <img src="images/logo.png" alt="logo"> instead of this, we use the helper -->
+  <% link_to "index.html", class: "navbar-wagon-brand" do %>
+  <!-- <img src="images/logo.png" alt="logo"> instead of this, we use the helper -->
     <%= image_tag "logo.png", alt: "logo" %>
-  </a>
+  <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
